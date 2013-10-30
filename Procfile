@@ -1,1 +1,1 @@
-web: source env/bin/activate && cd env/src/turbo && lua examples/helloworld.lua
+web: source $PWD/env/bin/activate && cd $PWD/env/src/turbo && lua examples/helloworld.lua
