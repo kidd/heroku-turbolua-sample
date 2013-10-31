@@ -1,1 +1,1 @@
-web: echo $PWD; source env/bin/activate && LUA_PATH=";;$PWD/env/src/turbo/?.lua;$PWD/env/src/turbo/turbo/?.lua"  env/bin/luajit main.lua
+web: echo $PWD; ls ; source env/bin/activate && LUA_PATH=";;env/src/turbo/?.lua;/app/env/src/turbo/?.lua"  env/bin/luajit main.lua
