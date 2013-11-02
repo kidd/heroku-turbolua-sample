@@ -1,1 +1,1 @@
-web: tar xjf turbolua.tar.bz2 && ln -s $PWD/env /tmp/env && source /tmp/env/bin/activate && LUA_PATH=";;/tmp/env/src/turbo/?.lua;/tmp/env/src/turbo/?.lua"  /tmp/env/bin/luajit main.lua
+web: source env/bin/activate && cd env/src/turbo && lua examples/helloworld.com
