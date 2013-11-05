@@ -1,3 +1,13 @@
-heroku create turbolua-example --buildpack http://github.com/kidd/heroku-buildpack-turbolua.git
-Creating turbolua-example... done, stack is cedar
-http://turbotest.herokuapp.com/ | git@heroku.com:turbotest.git
+*
+* Create app
+  heroku create turbolua-example --buildpack http://github.com/kidd/heroku-buildpack-turbolua.git
+  Creating turbolua-example... done, stack is cedar
+  http://turbolua-exapmle.herokuapp.com/
+
+* Requirements
+  - The repo must have a main.lua that will be executed in the web:
+    part of Procfile. Don't change the filename even if you change the
+    line in the Procfile.
+
+* Author
+  [[http://www.github.com/kidd][Raimon Grau Cuscó]] (raimonster@gmail.com)

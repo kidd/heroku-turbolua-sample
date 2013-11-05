@@ -1,6 +1,7 @@
 --- Turbo.lua Hello world example
 --
 -- Copyright 2013 John Abrahamsen
+-- Copyright 2013 Raimon Grau (slight modification for heroku)
 --
 -- Licensed under the Apache License, Version 2.0 (the "License");
 -- you may not use this file except in compliance with the License.
