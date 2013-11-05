@@ -22,5 +22,5 @@ function ExampleHandler:get()
 	self:write("Hello world!!")
 end
 
-turbo.web.Application({{"^/$", ExampleHandler}}):listen(8888)
+turbo.web.Application({{"^/$", ExampleHandler}}):listen(80)
 turbo.ioloop.instance():start()
