@@ -6,7 +6,7 @@
 * Create app
   - heroku create turbolua-example --buildpack http://github.com/kidd/heroku-buildpack-turbolua.git
   - Creating turbolua-example... done, stack is cedar
-  - http://turbolua-exapmle.herokuapp.com/
+  - http://turbolua-example.herokuapp.com/
 
 * Requirements
   - The repo must have a main.lua that will be executed in the web:
