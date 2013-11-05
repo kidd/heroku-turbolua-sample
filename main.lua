@@ -22,5 +22,5 @@ function ExampleHandler:get()
 	self:write("Hello world!!")
 end
 
-turbo.web.Application({{"^/$", ExampleHandler}}):listen(8080)
+turbo.web.Application({{"^/$", ExampleHandler}}):listen(tonumber(os.getenv('PORT')))
 turbo.ioloop.instance():start()
