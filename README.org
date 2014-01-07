@@ -4,7 +4,9 @@
   apps in heroku
 
 * Create app
-  - heroku create turbolua-example --buildpack http://github.com/kidd/heroku-buildpack-turbolua.git
+  - heroku create --stack cedar --buildpack http://github.com/kidd/heroku-buildpack-turbolua.git
+    (in case it's not working, try with "heroku create turbolua-example --buildpack
+    http://github.com/kidd/heroku-buildpack-turbolua.git")
   - Creating turbolua-example... done, stack is cedar
   - http://turbolua-example.herokuapp.com/
 
